@@ -5,3 +5,7 @@ print (type(a))
 
 c = a+b
 print (c)
+if c >= a:
+  print (a)
+else:
+  print (b)
