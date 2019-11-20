@@ -9,3 +9,4 @@ if c >= a:
   print (a)
 else:
   print (b)
+    
