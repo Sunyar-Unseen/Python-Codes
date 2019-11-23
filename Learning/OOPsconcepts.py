@@ -56,8 +56,17 @@ class YTUser(GoogleUser):
         super().__init__(username,password,dob)
         self.fav_genere = fav_genere
 
+class GmailUser(GoogleUser):
+    def __init__(self,username,password,dob,preference):
+        super().__init__(username,password,dob)
+        self.preference = preference
+
 a_user = GoogleUser("Yaten","F***","01/01/2000") 
 
 yt_user = YTUser("FN","LN","01/01/2001",["Music","Cartoon"])
 
 print(yt_user.dob,yt_user.fav_genere)
+
+class xyz():
+    def __init__(self):
+        super().__init__()
